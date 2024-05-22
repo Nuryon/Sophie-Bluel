@@ -6,41 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Syne:wght@400..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <meta name="description" content="" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <script src="https://kit.fontawesome.com/9011c6ee51.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/9011c6ee51.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  
-  
- 
+
+  <div class="top-bar-container"></div>
+
   <body>
-    
-
-    <a href="#modal1" class="modal-click js-modal"><i class="fa-regular fa-pen-to-square"></i>Mode édition</a>
-    <aside id="modal1" class="modal" aria-hidden="true" role="dialog" aria-modal="false" style="display: none;">
-        <div class="modal-wrapper js-modal-stop">
-          <button class="js-modal-close"><i class="fa-solid fa-x"></i></button>
-            <h1 class="modal-title" aria-labelledby="modal-title">Galerie photo</h1>
-            <div class="gallery-modal"></div>
-            <div class="form-button">
-
-                <input type="submit" value="ajouter une photo" />
-            </div>
-        </div>
-    </aside>
-
-
+    <div class="modal-container"></div>
     <header>
-     
-
-
-      
       <h1>Sophie Bluel <span>Architecte d'intérieur</span></h1>
       <nav>
         <ul>
@@ -76,7 +58,7 @@
         </article>
       </section>
       <section id="portfolio">
-        <h2>Mes Projets</h2>
+        <div class="project-title-container"><h2>Mes Projets</h2></div>
         <div class="filtre"></div>
         <div class="gallery"></div>
       </section>
@@ -102,7 +84,6 @@
         </ul>
       </nav>
     </footer>
-    <script src="../script.js"></script>
-    <script src="./app.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

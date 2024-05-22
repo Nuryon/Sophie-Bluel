@@ -32,7 +32,7 @@ const loginUser = async (e) => {
       body: JSON.stringify(body)
     });
     
-    if (!response.ok) {
+    if (response.ok) {
       const data = await response.json();
       localStorage.setItem("token",data.token)
       window.location.href= "./index.html" 
