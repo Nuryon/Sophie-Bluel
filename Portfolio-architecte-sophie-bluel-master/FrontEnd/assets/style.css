@@ -476,7 +476,7 @@ footer nav ul {
   border-radius: 10px;
 }
 
-.modal h2 {
+.modal-maintitle {
   font-family: Work Sans;
   font-size: 26px;
   font-weight: 400;
@@ -486,15 +486,11 @@ footer nav ul {
   padding: 40px 0px 30px 0px;
 }
 
-.modal button {
+.button-modal {
 
   width: 237px;
   height: 36px;
-  top: 1267px;
-  left: 600px;
-  gap: 0px;
   border-radius: 60px;
-  opacity: 0px;
   color: white;
   background-color: #1d6154;
   border: 2px solid #1d6154;
@@ -553,4 +549,147 @@ footer nav ul {
 
 
 
+}
+
+.picture-div {
+  width: 420px;
+  height: 169px;
+  border-radius: 3px;
+  background-color: #E8F1F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.picture-div i {
+
+  margin: 20px;
+  color: #B9C5CC;
+
+}
+
+.button-modal-second {
+  width: 173px;
+  height: 36px;
+  border-radius: 50px;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.42px;
+  text-align: center;
+  color: #306685;
+  background-color: #CBD6DC;
+  border: none;
+
+}
+
+.info-element {
+  font-family: Work Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.73px;
+  text-align: center;
+  color: #444444;
+  margin: 10px;
+}
+
+.modal-subtitle {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.42px;
+  text-align: left;
+  position: absolute;
+  left: 110px;
+  top: 300px;
+  color: #3D3D3D;
+}
+
+.modal-second-subtitle {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.42px;
+  text-align: left;
+  position: absolute;
+  left: 110px;
+  top: 380px;
+  color: #3D3D3D;
+}
+
+.modal-input {
+  box-shadow: 0px 4px 14px 0px #00000017;
+  width: 420px;
+  height: 30px;
+  position: absolute;
+  left: 110px;
+  top: 330px;
+
+
+}
+
+.modal-second-input {
+  box-shadow: 0px 4px 14px 0px #00000017;
+  width: 420px;
+  height: 30px;
+  position: absolute;
+  left: 110px;
+  top: 410px;
+
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 115px;
+  bottom: 80px;
+  width: 420px;
+  transition: transform 0.3s cubic-bezier(0.1, 0.2, 0.5, 1), opacity 0.3s cubic-bezier(0.1, 0.2, 0.5, 1);
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  align-items: center;
+  width: 420px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+  transform: translateY(0)
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  flex-grow: 1;
+}
+
+.input-container i {
+  position: absolute;
+  right: 100px;
+  bottom: 185px;
 }
